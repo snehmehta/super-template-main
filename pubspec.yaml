@@ -1,0 +1,23 @@
+name: super_template
+description: Super template main site.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  dio: ^4.0.6
+  firebase_analytics: ^10.0.2
+  firebase_core: ^2.1.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
